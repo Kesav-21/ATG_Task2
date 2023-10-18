@@ -1,0 +1,23 @@
+.height-100{
+    height: 100vh;
+}
+
+.circle{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    right: -25%;
+
+}
+.rect{
+    background-color: blue;
+    width: 40%;
+    position: relative;
+}
+.rect1{
+    background-color: black;
+    width: 60%;
+}
