@@ -1,23 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .height-100{
     height: 100vh;
 }
 
 .circle{
-    background-color: red;
+    background-color: blue;
     width: 50%;
-    height: 50%;
+    height: 41%;
     border-radius: 50%;
     position: absolute;
     top: 15%;
     right: -25%;
 
 }
+.text-content{
+  top: 30%;
+  left: -30%;
+}
+
+
 .rect{
     background-color: blue;
     width: 40%;
     position: relative;
 }
 .rect1{
-    background-color: black;
     width: 60%;
 }
+
+.box{
+    background-color: red;
+    
+    width: 100px;
+    height: 100px;
+}
+
+
+html, body {
+    height: 100%;
+  }
+  body { 
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .panel {
+  /*   display: flex; */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  section:not(.first) {
+    opacity: 0;
+    visibility: hidden;
+  } 
+  
+.purple{
+  background-color: rgb(67, 22, 109);
+}
+
+.blue{
+  background-color: rgb(32, 32, 136);
+}
+.dark-blue{
+  background-color: blueviolet;
+}
+
